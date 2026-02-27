@@ -16,6 +16,8 @@ app.get("/home", (req, res) => {
     "Python",
     "Java",
     "YDP",
+    "C ",
+    "OS",
   ];
   res.render("sample.pug", { sub: subjects });
 });
